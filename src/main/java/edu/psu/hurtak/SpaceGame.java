@@ -25,8 +25,8 @@ import java.util.Random;
 
 public class SpaceGame extends JFrame implements KeyListener {
 
-    private static final int WIDTH = 700;
-    private static final int HEIGHT = 700;
+    private static final int WIDTH = 500;
+    private static final int HEIGHT = 500;
 
     private static final int PLAYER_WIDTH = 40;
     private static final int PLAYER_HEIGHT = 40;
