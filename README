@@ -1,0 +1,89 @@
+# Lab5Hurtak Space Game
+
+## Abstract
+
+This project is a Java Swing space game created for the Solo Lab 5 Assignment. The player controls a spaceship, fires projectiles, avoids obstacles, collects health power-ups, collects purple orb power-ups, uses a rechargeable shield, and tries to survive until the countdown timer reaches zero.
+
+The game includes multiple levels, moving stars, sound effects, health management, shield mechanics, extra-shot upgrades, and a scoring system.
+
+## Features
+
+- Random colored moving stars in the background
+- Spaceship player image
+- Blue score text
+- 4 x 1 obstacle sprite sheet
+- Fire and collision WAV sound effects
+- Shield activated with the Control key
+- Shield recharge bar
+- Player health display
+- Random health power-ups
+- Random purple orb power-ups
+- Up to 5 extra shots from purple orbs
+- Countdown timer
+- Three difficulty levels
+- Win and lose conditions
+
+## Game Rules
+
+- The player starts with 3 health.
+- The player wins by surviving for 90 seconds.
+- The player loses when health reaches 0.
+- Health power-ups restore health.
+- Purple orbs provide additional projectiles.
+- The shield protects the player from obstacle collisions.
+- Level 3 becomes significantly more difficult.
+
+## Controls
+
+- Left Arrow = Move Left
+- Right Arrow = Move Right
+- Space Bar = Fire Projectiles
+- Control Key = Activate Shield
+- Escape Key = Reset Game
+
+## Assets Used
+
+The following files are stored in:
+
+src/main/resources/assets
+
+- ship.png
+- obstacles.png
+- health.png
+- fire.wav
+- collision.wav
+
+## Technologies Used
+
+- Java
+- Java Swing
+- Graphics2D
+- AudioSystem
+- BufferedImage
+- Timer
+- ArrayList Collections
+
+## Author
+
+Alexander Matthew Hurtak
+
+## Course
+
+IST 242 – Java Programming
+
+## How To Run
+
+1. Open the project in IntelliJ IDEA.
+2. Verify JDK 17 or newer is installed.
+3. Build the project.
+4. Run the SpaceGame class.
+5. Use the keyboard controls to play.
+
+## Future Improvements
+
+- Boss battles
+- High score tracking
+- Additional weapons
+- More power-ups
+- Animated explosions
+- Multiple spaceship choices
