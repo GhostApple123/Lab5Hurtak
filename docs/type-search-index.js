@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"edu.psu.hurtak","l":"Main"},{"p":"edu.psu.hurtak","l":"SpaceGame"}];updateSearchResults();
